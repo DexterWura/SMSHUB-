@@ -2,7 +2,12 @@
 
 **Developed by Dexterity Wurayayi**
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/DexterWura/SMSHUB-)
+[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
+
 SMSHub is a comprehensive Laravel-based platform that allows users to receive and view SMS messages sent to virtual phone numbers. The system supports multiple payment gateways, subscription-based access control, and a modern admin panel for managing numbers, plans, and users.
+
+**Repository**: [https://github.com/DexterWura/SMSHUB-](https://github.com/DexterWura/SMSHUB-)
 
 ## 🌟 Features
 
@@ -28,8 +33,8 @@ SMSHub is a comprehensive Laravel-based platform that allows users to receive an
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd Files
+git clone https://github.com/DexterWura/SMSHUB-.git
+cd SMSHUB-
 ```
 
 ### Step 2: Install Dependencies
@@ -117,9 +122,9 @@ Ensure your `.htaccess` file is in place and your virtual host points to the `pu
 ```apache
 <VirtualHost *:80>
     ServerName yourdomain.com
-    DocumentRoot /path/to/Files/public
+    DocumentRoot /path/to/SMSHUB-/public
     
-    <Directory /path/to/Files/public>
+    <Directory /path/to/SMSHUB-/public>
         AllowOverride All
         Require all granted
     </Directory>
@@ -132,7 +137,7 @@ Ensure your `.htaccess` file is in place and your virtual host points to the `pu
 server {
     listen 80;
     server_name yourdomain.com;
-    root /path/to/Files/public;
+    root /path/to/SMSHUB-/public;
 
     add_header X-Frame-Options "SAMEORIGIN";
     add_header X-Content-Type-Options "nosniff";
@@ -219,7 +224,7 @@ crontab -e
 Or using PHP CLI:
 
 ```bash
-* * * * * cd /path/to/Files && php artisan schedule:run >> /dev/null 2>&1
+* * * * * cd /path/to/SMSHUB- && php artisan schedule:run >> /dev/null 2>&1
 ```
 
 ### Step 8: SSL Certificate (Recommended)
@@ -397,6 +402,15 @@ This project is proprietary software developed by Dexterity Wurayayi. All rights
 ## 🤝 Support
 
 For support and inquiries, please contact the developer.
+
+## 📂 Repository
+
+**GitHub**: [https://github.com/DexterWura/SMSHUB-](https://github.com/DexterWura/SMSHUB-)
+
+Clone the repository:
+```bash
+git clone https://github.com/DexterWura/SMSHUB-.git
+```
 
 ## 🔄 Version
 
